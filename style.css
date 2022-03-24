@@ -1,0 +1,132 @@
+/* ********************************************** Tag CSS ********************************************** */
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ********************************************** Class CSS ********************************************** */
+
+/* Caption section */
+.caption-p{
+    font-size: 1.5rem;
+}
+.category-p{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 2% 0;
+}
+
+.est-caption{
+    color: rgb(72, 72, 72);
+}
+.heading-company-name{
+    font-family: 'Rosarivo', serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.heading-hr{
+    border: none;
+    border-top: 4px  solid rgb(0, 0, 0);
+    color: #000;
+    margin: auto;
+    width: 30%;
+}
+
+/* Category Section */
+.category-col{
+    padding: 5%;
+    position: relative;
+}
+.category-img{
+    border: 4px solid #fff;
+    border-radius: 100%;
+    width: 300px;
+}
+.category-img-caption{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+}
+.Section-heading{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* Cover Image Section */
+.circular-img{
+    margin-left: 21.855%;
+    position: absolute;
+    width: 56.29%;
+}
+.cover-img{
+    width: 100%;
+}
+
+/* Footer Section */
+.footer-div{
+    padding: 0 5%;
+}
+
+.footer-logo-img{
+    border-radius: 5%;
+    width: 200px;
+}
+.footer-text{
+    margin: 0;
+}
+.li-links{
+    display: inline-block;
+    padding: 0 6% 0 0;
+}
+
+/* Navbar Section*/
+.navbar-brand{
+    font-family: 'Rosarivo', serif;
+    font-size: 2.5rem;
+}
+.navbar-brand-img{
+    border-radius: 4%;
+}
+.navbar{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+/* ********************************************** Id CSS ********************************************** */
+#caption-section{
+    background-color: #ebb215;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 2.5;
+    padding: 7% 5%;
+    text-align: center;
+}
+#Category-section{
+    background-color: #ecbb35;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 7% 5%;
+    text-align: center;
+}
+#cover-img-section{
+    text-align: center;
+}
+#footer-section{
+    background-color: #eec658;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 0.5% 5%;
+    text-align: center;
+}
+/* ********************************************MEDIA QUERRY CSS******************************************** */
+@media(min-width:1030px){
+    #footer-section{
+        text-align: left;
+    }
+}
