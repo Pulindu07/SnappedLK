@@ -135,6 +135,10 @@ a{
         font-family: 'Rosarivo', serif;
         font-size: 1.5rem;
     }
+    .navbar-brand-img{
+        border-radius: 4%;
+        width: 50px;
+    }
     #footer-section{
         text-align: center;
     }
