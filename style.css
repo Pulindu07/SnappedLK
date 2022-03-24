@@ -130,3 +130,15 @@ a{
         text-align: left;
     }
 }
+@media(max-width:360px){
+    body{
+        padding: 7% 6%;
+    }
+    .navbar-brand{
+        font-family: 'Rosarivo', serif;
+        font-size: 1.5rem;
+    }
+    #footer-section{
+        text-align: center;
+    }
+}
